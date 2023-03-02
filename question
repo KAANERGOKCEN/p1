@@ -1,0 +1,6 @@
+public static string ReverseString(string input)
+{
+    string[] words = input.Split(' ');
+    Array.Reverse(words);
+    return string.Join(' ', words);
+}
